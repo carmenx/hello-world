@@ -124,7 +124,7 @@ Here's a list of resources to use to learn more about Git/GitHub!
 Official GitHub Handbook
 
 [Copy of official git handbook](https://www.notion.so/Copy-of-official-git-handbook-a1b0638c198a4b75bce8605e7baf0662)
-
+- [What is GitHub? - GitHub](https://youtu.be/w3jLJU7DT5E)
 - [Git Branching](https://learngitbranching.js.org)
 - [Basic Git Commands](https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl)
 - [**An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)** by Meghan Nelson
@@ -136,4 +136,4 @@ Official GitHub Handbook
 
     [git workshop.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6f38021-2ee8-4e8c-8f3e-01ad80d6142b/git_workshop.pdf)
 
-[https://youtu.be/w3jLJU7DT5E](https://youtu.be/w3jLJU7DT5E)
+
