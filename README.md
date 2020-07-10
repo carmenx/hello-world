@@ -1,7 +1,8 @@
-# hello-world
 # Welcome! Come learn about Git and Github.
 
-Git/Github can seem intimidating at first, but don't worry! There is a steep learning curve, but once you get the hang of it, it is useful for programming. Use this guide as one of your resources and you'll be on your way to mastering Git/Github! 
+Git/Github can seem intimidating at first, but don't worry! There can be a steep learning curve, but once you get the hang of it, it is an useful tool that 40 million users use. Use this guide as one of your resources and you'll be on your way on learning Git/Github! 
+
+It's a long read so grab some snacks and get comfy!
 
 ## What is Git and Github? What's the difference between them?
 
@@ -9,13 +10,18 @@ Git/Github can seem intimidating at first, but don't worry! There is a steep lea
 
 Before you understand what Git is, you'll need to understand what is a version code and control system. 
 
+What’s a version control system?
+
+A version control system, or VCS, tracks the history of changes as people and teams collaborate on projects together. As the project evolves, teams can run tests, fix bugs, and contribute new code with the confidence that any version can be recovered at any time. Developers can review project history to find out:
+
+- Which changes were made?
+- Who made the changes?
+- When were the changes made?
+- Why were changes needed?
+
 Here's how [atlassian](https://www.atlassian.com/git/tutorials/what-is-version-control) explains version code: 
 
 > Git is a software available for you to manage changes to your code over time. Version control software keeps track of every modification to the code in a special database. If a mistake is made, developers can turn back the clock and compare earlier versions of the code to help fix the mistake"
-
-It can be considered like your history on your search engine. It allows you to see the progress and what you've done! [maybe a better analogy?]
-
-> Git is the most widely used modern version control system in the world.
 
 The same website explains ["What is Git"](https://www.atlassian.com/git/tutorials/what-is-git)
 
@@ -23,6 +29,7 @@ Here are some main points from the article:
 
 - Why do we use Git?
     - It is the most widely used modern version control system in the world.
+
         - This is important because that means that if you collaborate with other developers, you'll be able to work within the same system.
 - Compared to other alternatives, Git has the **performance, security, flexibility** that most teams and individuals need. It's the most broadly adopted tool of its kind, which makes that many individuals use it and third party software tools and services are already integrated with Git.
 
@@ -62,26 +69,23 @@ These are the basic concepts behind Git and GitHub. Learn more by going to the G
         - you're "grabbing" the latest version of the code from GitHub
         - you only need to do this once at the beginning
         - this is what it could look like
-
-        ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e1c36dc-0a94-4f25-a2f1-4bb15329f788/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3e1c36dc-0a94-4f25-a2f1-4bb15329f788/Untitled.png)
+![git setup photo 1](https://i.imgur.com/w8Ww9U2.png)
 
 2. checkout into a new branch `git checkout -b NAME-OF-BRANCH`
     - it should look like this:
         - the name of the **original** branch is called (CREDITSS) - shown in a blue color
             - if you start out for the first time, the branch will be called MASTER/MAIN
         - we checked out to a new branch called EXAMPLE
-
-    ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5d737ce-7adf-45b1-830b-5db68c7dd79d/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f5d737ce-7adf-45b1-830b-5db68c7dd79d/Untitled.png)
-
+![git setup photo 1](https://i.imgur.com/YSVr3uh.png)        
     - checking out into a new branch means that you're working on a different version
         - like a paper - this means you're working on a draft involving one idea for the final paper
         - you don't want to work on the idea directly on the final paper but rather on a draft
         - if you don't use the "draft" having branches makes it easier to not include it
         - if you do use the "draft" you can easily put it in the final paper - master
 3. make your changes, go wild!
-    - you can add something to the README or add text
+    - you can add something to the README or do some code!
 4. tell git to track your changes by doing `git add .`
-    - you can do this before you start or afterwards
+    - try to do this in the beginning before you start making any changes
 5. save your changes and give it a meaningful name by doing `git commit -m "describe your changes here"`
 6. double check to see what git is keeping track of by doing `git status`
 7. push those changes up to github `git push origin NAME-OF-BRANCH`
@@ -121,19 +125,15 @@ Here's a list of resources to use to learn more about Git/GitHub!
 
 [GitHub's guide to setting up - Hello World](https://guides.github.com/activities/hello-world/)
 
-Official GitHub Handbook
-
-[Copy of official git handbook](https://www.notion.so/Copy-of-official-git-handbook-a1b0638c198a4b75bce8605e7baf0662)
+- [Official GitHub Handbook](https://guides.github.com/introduction/git-handbook/)
 - [What is GitHub? - GitHub](https://youtu.be/w3jLJU7DT5E)
 - [Git Branching](https://learngitbranching.js.org)
 - [Basic Git Commands](https://dev.to/dhruv/essential-git-commands-every-developer-should-know-2fl)
-- [**An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)** by Meghan Nelson
-- [https://learngitbranching.js.org](https://learngitbranching.js.org/)
+- [An Intro to Git and GitHub for Beginners (Tutorial)](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
 - [git - the simple guide](https://rogerdudler.github.io/git-guide/)
 - [Learn the Basics of Git in Under 10 Minutes](https://www.freecodecamp.org/news/learn-the-basics-of-git-in-under-10-minutes-da548267cc91/)
 - [Git: Become an Expert in Git & GitHub in 4 Hours (Udemy Free Course)](https://www.udemy.com/course/git-expert-4-hours/)
 - [A Visual Git Reference](http://marklodato.github.io/visual-git-guide/index-en.html)
+- [git workshop.pdf](https://github.com/nwplus/self-learning-resources/blob/master/1-getting-started/git%20workshop.pdf "Git Workshop")
 
-    [git workshop.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f6f38021-2ee8-4e8c-8f3e-01ad80d6142b/git_workshop.pdf)
-
-
+You did it!! It's a long read but it's definitely useful! Feel free to refer back to this if you'd like and give any suggestions on topics you'd like us to cover next! Until next time!
