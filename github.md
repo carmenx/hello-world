@@ -1,4 +1,4 @@
-# Welcome! Come learn about Git and Github.
+# Welcome! Come learn about Git and Github. 
 
 Git/Github can seem intimidating at first, but don't worry! There can be a steep learning curve, but once you get the hang of it, it is an useful tool that 40 million users use. Use this guide as one of your resources and you'll be on your way on learning Git/Github! 
 
